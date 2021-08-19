@@ -1,0 +1,124 @@
+
+#outerWrap {
+    position: relative;
+    z-index: 0;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#layer1 {
+    position: absolute;
+    z-index: 1;
+    background-color: #6F0;
+    height: 183px;
+    width: 327px;
+    border-radius: 8px;
+    top: 0%;
+    left: 0%;
+    /* cursor: pointer; */
+    background-image: url(img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ #layer1:hover,
+ #layer2:hover,
+ #layer3:hover,
+ #layer4:hover,
+ #layer5:hover,
+ #layer6:hover
+  {
+    
+
+    cursor: pointer;
+    opacity: .7;
+
+ }
+ 
+ #layer1 a {
+    
+    color: #fff;
+    text-decoration: none;
+    
+}
+ #layer1 h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 36px;
+}
+
+ 
+
+#layer2 {
+    position: absolute;
+    z-index: 2;
+    background-color: #FC0;
+    height: 183px;
+    width: 327px;
+    top: 35%;
+    left: 10%;
+    border-radius: 8px;
+    cursor: pointer;
+    background-image: url(img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#layer3 {
+    position: absolute;
+    z-index: 2;
+    background-color: #9e7b96;
+    border-radius: 8px;
+    height: 183px;
+    width: 327px;
+    top: 0%;
+    left: 35%;
+    cursor: pointer;
+    background-image: url(img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#layer4 {
+    position: absolute;
+    z-index: 2;
+    background-color: #965487;
+    border-radius: 8px;
+    height: 183px;
+    width: 327px;
+    top: 35%;
+    left: 45%;
+    cursor: pointer;
+    background-image: url(img/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#layer5 {
+    position: absolute;
+    z-index: 2;
+    background-color: #78b167;
+    border-radius: 8px;
+    height: 183px;
+    width: 327px;
+    top: 57%;
+    left: 0%;
+    cursor: pointer;
+    background-image: url(img/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#layer6 {
+    position: absolute;
+    z-index: 1;
+    background-color: #78b167;
+    border-radius: 8px;
+    height: 183px;
+    width: 327px;
+    top: 74%;
+    left: 32%;
+    cursor: pointer;
+    background-image: url(img/6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
